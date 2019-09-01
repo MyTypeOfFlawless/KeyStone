@@ -5,7 +5,6 @@ def fib(n):
     fib_first = (gr**n - (1 - gr)**n) / math.sqrt(5)
     return int(round(fib_first))
 
-return fib(100)
 
 
 #def powLF(n):

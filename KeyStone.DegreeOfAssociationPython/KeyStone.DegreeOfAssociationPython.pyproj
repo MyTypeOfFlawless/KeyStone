@@ -5,8 +5,7 @@
     <ProjectGuid>09ac79a5-aa3c-4808-abf2-4e1801a4094a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <StartupFile>KeyStone.DegreeOfAssociationPython.py</StartupFile>
-    <SearchPath>
-    </SearchPath>
+    <SearchPath>..\..\..\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\Scripts</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>KeyStone.DegreeOfAssociationPython</Name>
@@ -22,6 +21,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="KeyStone.DegreeOfAssociationPython.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ReadMe.md" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
