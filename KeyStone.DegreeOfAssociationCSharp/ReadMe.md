@@ -16,6 +16,9 @@ group by IdGrandParent having count(IdGrandParent) > 1
 select IdGrandParent, IdParty from Associations --where idParty = 19 --and IdGrandParent = 1333 
 group by IdGrandParent, IdParty having count(IdParty) > 1
 
+//-->[Interpretation 2] 
+Then i realised your question could be interpreted differently.  Whereas you only want the top 5 for any in the top 10
+
 
 *****************************
 Instructions:
