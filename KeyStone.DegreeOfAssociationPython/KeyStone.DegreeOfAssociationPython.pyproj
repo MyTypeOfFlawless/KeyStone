@@ -23,7 +23,13 @@
     <Compile Include="KeyStone.DegreeOfAssociationPython.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DataFile\associations_sample_10k.csv" />
     <Content Include="ReadMe.md" />
+    <Content Include="Scripts\associations_sample_10k.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataFile\" />
+    <Folder Include="Scripts\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
